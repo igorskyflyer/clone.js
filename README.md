@@ -67,11 +67,11 @@ let firstStudent = {
   id: 103,
   name: 'Ben',
   subjects: {
-    group_dke: {
+    groupDke: {
       science: 'B',
       maths: 'C'
     },
-    group_ope: {
+    groupOpe: {
       foo: 'bar'
     }
   }
@@ -79,7 +79,7 @@ let firstStudent = {
 
 let secondStudent = clone(firstStudent)
 
-secondStudent.subjects.group_dke.maths = 'B'
+secondStudent.subjects.groupDke.maths = 'B'
 
 console.log('firstStudent => ', firstStudent)
 console.log('secondStudent => ', secondStudent)
